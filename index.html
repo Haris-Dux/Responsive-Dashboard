@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MATERIAL ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    />
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <!-- LOGO SECTION -->
+        <div class="top">
+          <div class="logo">
+            <img src="./images/logo.png" alt="Logo" />
+            <h1>EGA<span class="danger">TOR</span></h1>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+        </div>
+        <!-- NAVIGATION SECTION -->
+        <div class="sidebar">
+          <a href="">
+            <span class="material-icons-sharp"> grid_view </span>
+            <h3>Dasboard</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> person_outline </span>
+            <h3>Customers</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> receipt_long </span>
+            <h3>Orders</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> insights </span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> mail_outline </span>
+            <h3>Messages</h3>
+            <span class="message">26</span>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> inventory </span>
+            <h3>Products</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> error_outline </span>
+            <h3>Reports</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> settings </span>
+            <h3>Settings</h3>
+          </a>
+          <a href="">
+            <span class="material-icons-sharp"> logout </span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- MAIN CONTENT -->
+      <main>
+        <div class="date-section">
+          <h1>Dashboard</h1>
+          <input type="date" />
+        </div>
+        <!-- INSIGHTS -->
+        <div class="insights">
+          <div class="sales">
+            <span class="material-icons-sharp"> analytics </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>$25,024</h1>
+              </div>
+              <div class="progress">
+                <svg class="checking">
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">81%</div>
+              </div>
+            </div>
+
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+
+          <div class="Expense">
+            <span class="material-icons-sharp"> bar_chart </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Expense</h3>
+                <h1>$14,200</h1>
+              </div>
+              <div class="progress">
+                <svg class="checking">
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">45%</div>
+              </div>
+            </div>
+
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+
+          <div class="analytics">
+            <span class="material-icons-sharp"> stacked_line_chart </span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Income</h3>
+                <h1>$3,000</h1>
+              </div>
+              <div class="progress">
+                <svg class="checking">
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">22%</div>
+              </div>
+            </div>
+
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="recent-orders">
+          <h2>Recent Orders</h2>
+          <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Number</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hair Dryer</td>
+                <td>HD-783</td>
+                <td>$100</td>
+                <td>Delivered</td>
+                <td>
+                  <button class="btn-details">View Details</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hair Dryer</td>
+                <td>HD-783</td>
+                <td>$100</td>
+                <td>Delivered</td>
+                <td>
+                  <button class="btn-details">View Details</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hair Dryer</td>
+                <td>HD-783</td>
+                <td>$100</td>
+                <td>Delivered</td>
+                <td>
+                  <button class="btn-details">View Details</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hair Dryer</td>
+                <td>HD-783</td>
+                <td>$100</td>
+                <td>Delivered</td>
+                <td>
+                  <button class="btn-details">View Details</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hair Dryer</td>
+                <td>HD-783</td>
+                <td>$100</td>
+                <td>Delivered</td>
+                <td>
+                  <button class="btn-details">View Details</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hair Dryer</td>
+                <td>HD-783</td>
+                <td>$100</td>
+                <td>Delivered</td>
+                <td>
+                  <button class="btn-details">View Details</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+      </main>
+
+      <!-- RIGHT -->
+
+      <div class="right">
+        <div class="top">
+          <button id="menu-button">
+            <span class="material-icons-sharp"> menu </span>
+          </button>
+          <div class="profile">
+            <div class="toggle">
+              <span class="material-icons-sharp active"> light_mode </span>
+              <span class="material-icons-sharp"> dark_mode </span>
+            </div>
+
+            <div class="image">
+              <h3>Daniel</h3>
+              <h6 class="text-muted">Admin</h6>
+            </div>
+            <img
+              class="profile-photo"
+              src="./images/profile-1.jpg"
+              alt="user-image"
+            />
+          </div>
+        </div>
+        <!-- RECENTS -->
+         <div class="recent-updates">
+          <h2>
+            Recent Updates
+          </h2>
+          <div class="items">
+            <div class="updates">
+              <img class="profile-photo" src="images/profile-2.jpg" alt="recent-image">
+              <div class="update-info">
+                 
+                <div>
+                  <p><b>Mike Tyson</b> Recieved his order of hair dryer in 3 days</p>
+                  <span class="text-muted">2 Minutes ago</span>
+                </div>          
+              </div>      
+            </div>
+            <div class="updates">
+              <img class="profile-photo" src="images/profile-2.jpg" alt="recent-image">
+              <div class="update-info">
+                 
+                <div>
+                  <p><b>Mike Tyson</b> Recieved his order of hair dryer in 3 days</p>
+                  <span class="text-muted">2 Minutes ago</span>
+                </div>          
+              </div>      
+            </div>
+            <div class="updates">
+              <img class="profile-photo" src="images/profile-2.jpg" alt="recent-image">
+              <div class="update-info">
+                 
+                <div>
+                  <p><b>Mike Tyson</b> Recieved his order of hair dryer in 3 days</p>
+                  <span class="text-muted">2 Minutes ago</span>
+                </div>          
+              </div>      
+            </div>
+          </div>
+         </div>
+
+         <!-- STATICS -->
+          <div class="sales-analytics">
+            <h2>Sales Analytics</h2>
+            <div class="item-offline">
+              <div class="icon">
+                <span class="material-icons-sharp">
+                  shopping_cart
+                  </span>
+              </div>
+              <div class="analytics-information">
+                <div class="middle-info">
+                  <h3>Online Orders</h3>
+                  <span class="text-muted">Last 24 Hours</span>
+                </div>            
+                <h5>+39%</h5>
+                <h3>3849</h3>
+              </div>
+            </div>
+
+            <div class="item-offline">
+              <div class="icon">
+                <span class="material-icons-sharp">
+                  shopping_cart
+                  </span>
+              </div>
+              <div class="analytics-information">
+                <div class="middle-info">
+                  <h3>Online Orders</h3>
+                  <span class="text-muted">Last 24 Hours</span>
+                </div>            
+                <h5>+39%</h5>
+                <h3>3849</h3>
+              </div>
+            </div>
+
+            <div class="item-offline">
+              <div class="icon">
+                <span class="material-icons-sharp">
+                  shopping_cart
+                  </span>
+              </div>
+              <div class="analytics-information">
+                <div class="middle-info">
+                  <h3>Online Orders</h3>
+                  <span class="text-muted">Last 24 Hours</span>
+                </div>            
+                <h5>+39%</h5>
+                <h3>3849</h3>
+              </div>
+            </div>
+
+            <div class="add-product">
+              <span class="material-icons-sharp">
+                add
+                </span>
+                <h3>Add Product</h3>
+            </div>
+
+          </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
